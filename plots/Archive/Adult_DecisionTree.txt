@@ -1,0 +1,22 @@
+====================================================
+GridSearch-1-Adult-DecisionTree:
+Score=0.8155761844309887, params={'criterion': 'gini', 'max_depth': None, 'min_samples_split': 9}
+====================================================
+LearningCurve-2-Adult-DecisionTree:
+train=0.9473402475744396, test=0.8146128770017963
+====================================================
+DTPruning-3-Adult-DecisionTree
+test score=0.8494085532302093, index=508, ccp_alpha=0.0006805460013573766
+====================================================
+LearningCurve-4-Adult-DecisionTree:
+train=0.8556306457009033, test=0.8478518781179033
+====================================================
+LearningCurve-5-Adult-DecisionTree: (tried entropy vs gini)
+train=0.861331549013048, test=0.8474490601515632
+====================================================
+ModelComplexity-6-Adult-DecisionTree:
+max_depth: test score=0.8538183239103347, index=5, param=7
+min_samples_split: test score=0.8536136575165567, index=0, param=2
+====================================================
+FinalTest-7-Adult-DecisionTree:
+Train=0.8543556804496186, Test=0.8525932666060054

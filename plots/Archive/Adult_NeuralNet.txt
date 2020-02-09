@@ -1,0 +1,32 @@
+====================================================
+GridSearch-1-Adult-NeuralNet:
+Score=0.8169394676793732, params={'activation': 'relu', 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.001}
+====================================================
+LearningCurve-2-Adult-NeuralNet:
+train=0.8208631649381063, test=0.8195091296082259
+====================================================
+ModelComplexity-3-Adult-NeuralNet:
+hidden_layer_sizes: test score=0.8201043352051556, index=4, param=18
+learning_rate_init: test score=0.8226986341296971, index=1, param=0.0004714285714285714
+====================================================
+LearningCurve-4-Adult-NeuralNet: (updated to 18 neurons)
+train=0.8229642020742723, test=0.8212763586591201
+====================================================
+LearningCurve-4.1-Adult-NeuralNet: (Added 10 in second layer)
+train=0.8078287052525929, test=0.8047379946351089
+====================================================
+LearningCurve-4.2-Adult-NeuralNet: (activation to tanh)
+train=0.8196587487453998, test=0.8157355251250319
+====================================================
+ModelComplexity-5-Adult-NeuralNet:
+hidden_layer_sizes: test score=0.8458338247086934, index=7, param=54
+learning_rate_init: test score=0.8443325140810414, index=2, param=0.0004464285714285714
+====================================================
+LearningCurve-6-Adult-NeuralNet:
+train=0.8468384074941451, test=0.8414290766991754
+====================================================
+LearningCurve-7-Adult-NeuralNet:
+train=0.8438273670123788, test=0.8377348718823223
+====================================================
+FinalTest-8-Adult-NeuralNet:
+Train=0.8468085106382979, Test=0.8530482256596906

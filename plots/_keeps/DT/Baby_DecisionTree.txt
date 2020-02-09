@@ -1,0 +1,22 @@
+====================================================
+GridSearch-1-Baby-DecisionTree:
+Score=0.9280604762332336, params={'criterion': 'entropy', 'max_depth': None, 'min_samples_split': 9}
+====================================================
+LearningCurve-2-Baby-DecisionTree:
+train=0.9820044296788483, test=0.9297216058013399
+====================================================
+DTPruning-3-Baby-DecisionTree
+test score=0.9404388714733543, index=26, ccp_alpha=0.004380914244641486
+====================================================
+LearningCurve-4-Baby-DecisionTree:
+train=0.9648394241417496, test=0.9263993466651274
+====================================================
+ModelComplexity-5-Baby-DecisionTree:
+max_depth: test score=0.861623427380332, index=4, param=6
+min_samples_split: test score=0.8621104121690365, index=5, param=20
+====================================================
+LearningCurve-6-Baby-DecisionTree:(switched to Gini)
+train=0.9366002214839424, test=0.9280455111019894
+====================================================
+FinalTest-7-Baby-DecisionTree:
+Train=0.9341449916989485, Test=0.896551724137931

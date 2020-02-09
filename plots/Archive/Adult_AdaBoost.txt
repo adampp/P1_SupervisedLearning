@@ -1,0 +1,38 @@
+====================================================
+LearningCurve-0-Adult-AdaBoost:
+train=0.9413583138173303, test=0.8387800602174288
+====================================================
+GridSearch-1-Adult-AdaBoost:
+Score=0.8634279272085512, params={'learning_rate': 0.1, 'n_estimators': 40}
+====================================================
+LearningCurve-2-Adult-AdaBoost:
+train=0.8888725326196053, test=0.8630264175321682
+====================================================
+ModelComplexity-3-Adult-AdaBoost:
+n_estimators: test score=0.8655563115510793, index=4, param=70
+learning_rate: test score=0.8661702129462723, index=3, param=0.13142857142857145
+====================================================
+LearningCurve-4-Adult-AdaBoost:
+train=0.9094680495148879, test=0.8595736147690598
+====================================================
+LearningCurve-4.1-Adult-AdaBoost: (max_depth = 6)
+train=0.9360588825694212, test=0.8525891509378635
+====================================================
+LearningCurve-4.2-Adult-AdaBoost: (max_depth = 4)
+train=0.8891267982602876, test=0.8640699817831902
+====================================================
+LearningCurve-4.3-Adult-AdaBoost: (max_depth = 3)
+train=0.8761726329876215, test=0.8668803690640854
+====================================================
+LearningCurve-4.4-Adult-AdaBoost: (max_depth = 2)
+train=0.8623486115757777, test=0.8582092036845054
+====================================================
+ModelComplexity-5-Adult-AdaBoost:
+n_estimators: test score=0.8686271549376429, index=6, param=181
+learning_rate: test score=0.8685587372341007, index=3, param=0.17273469200000002
+====================================================
+LearningCurve-6-Adult-AdaBoost:
+train=0.8887253261960523, test=0.8669602198648941
+====================================================
+FinalTest-7-Adult-AdaBoost:
+Train=0.886150140505821, Test=0.8767060964513194
