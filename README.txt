@@ -1,5 +1,6 @@
 Install/Setup Steps:
-1. Download and Extract https://gtvault-my.sharepoint.com/:u:/r/personal/apierce35_gatech_edu/Documents/GT_Shared/ML/Project1/apierce35_ML_P1.zip?csf=1&e=1VDifg
+1. Download and Extract https://github.com/adampp/P1_SupervisedLearning
+    https://github.com/adampp/P1_SupervisedLearning.git
 
 2. Make sure scikit-learn, numpy, pandas, matplotlib, and all required dependencies are installed
 with Python 3.7+
